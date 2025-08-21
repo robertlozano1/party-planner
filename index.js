@@ -5,7 +5,6 @@
  * @property {string} description - Event description
  * @property {string} date - ISO date string
  * @property {string} location - Where event is happening
- * @property {string[]} guests - Guest list
  */
 
 // === Constants ===
