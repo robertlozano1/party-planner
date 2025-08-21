@@ -1,0 +1,68 @@
+body {
+  font-family: Georgia, serif;
+  margin: 40px;
+  background: #fafafa;
+  color: #111;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lineup {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lineup li {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lineup li:hover {
+  background: #f0f0f0;
+}
+
+.lineup li.selected {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.event h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.event p {
+  margin: 0.3rem 0;
+}
+
+.event p em {
+  color: #444;
+}
+
+.event ul {
+  margin-top: 0.6rem;
+  padding-left: 20px;
+}
